@@ -27,10 +27,8 @@ public class HighLevelClientRemoteServer {
 
 	public static void main(String[] args) throws IOException {
 		
-/******************************ELASTIC & KIBANA (http://115.68.193.101)(High Level Client)*********************************/
-//elastic: http://115.68.193.101:19200/
-//kibana: http://115.68.193.101:15601/
-//KibanaRestClient kibanaClient = KibanaRestClient.create(RestClient.builder(new HttpHost("115.68.193.101", 15601, "http")));
+/******************************ELASTIC & KIBANA (http://ipaddress)(High Level Client)*********************************/
+//KibanaRestClient kibanaClient = KibanaRestClient.create(RestClient.builder(new HttpHost("ipaddress", port, "http")));
 		
 
     	RestHighLevelClient client = new RestHighLevelClient(RestClient.builder(new HttpHost("ipaddress", port, "http"))
