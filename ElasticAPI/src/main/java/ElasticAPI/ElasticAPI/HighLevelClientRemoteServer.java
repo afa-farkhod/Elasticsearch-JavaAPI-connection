@@ -33,13 +33,13 @@ public class HighLevelClientRemoteServer {
 //KibanaRestClient kibanaClient = KibanaRestClient.create(RestClient.builder(new HttpHost("115.68.193.101", 15601, "http")));
 		
 
-    	RestHighLevelClient client = new RestHighLevelClient(RestClient.builder(new HttpHost("115.68.193.101", 19200, "http"))
+    	RestHighLevelClient client = new RestHighLevelClient(RestClient.builder(new HttpHost("ipaddress", port, "http"))
     					.setHttpClientConfigCallback(new HttpClientConfigCallback() {
     						@Override
     						public HttpAsyncClientBuilder customizeHttpClient(HttpAsyncClientBuilder httpClientBuilder) {
     							CredentialsProvider credentialsProvider = new BasicCredentialsProvider();
     							credentialsProvider.setCredentials(AuthScope.ANY,
-    									new UsernamePasswordCredentials("khsystems", "qwer12#$"));
+    									new UsernamePasswordCredentials("username", "password"));
     							
     							return httpClientBuilder.setDefaultCredentialsProvider(credentialsProvider);
     						}
