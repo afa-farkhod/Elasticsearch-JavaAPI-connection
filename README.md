@@ -31,5 +31,19 @@ Then run search for the key word "Uzbekistan", out shows the data which is on el
 
 ![image](https://user-images.githubusercontent.com/24220136/227845751-e5aeb7c1-6de0-4591-8a6f-e0375da83407.png)
 
+Elasticsearch official documentation: https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/index.html
 
+2. Now we check the same java api with the elasticsearch running inside the docker container. First, we run docker, and bring the elasticsearch docker-compose.yml file:
+
+![image](https://user-images.githubusercontent.com/24220136/227846350-d2fc6be7-e676-4dd4-9038-ba248b6e67f3.png)
+
+We can see our running servers inside the docker containers with the following command:
+
+![image](https://user-images.githubusercontent.com/24220136/227846458-ea87f3dd-fc05-4904-b5e4-7ae8544d99b6.png)
+
+We can check elasticsearch on port:9200 (if you pay attention to cluster_name: "docker-clust")
+
+![image](https://user-images.githubusercontent.com/24220136/227846675-a1fc845e-7bb8-4bf5-8d64-19c5ebed703e.png)
+
+Then we open the kibana on the same port:5601, then check with api(java api: ElasticAPI\src\main\java\ElasticAPI\ElasticAPI\QueryLocalHostDocker.java) connection, everything works fine. 
 
