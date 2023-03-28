@@ -22,11 +22,11 @@ public class LowLevelClientRemoteServer {
 
 	public static void main(String[] args) throws IOException {
 	    RestClient restClient = RestClient.builder(
-	            new HttpHost("115.68.193.101", 19200, "http"))
+	            new HttpHost("ipaddress", port, "http"))
 	            .setHttpClientConfigCallback(httpClientBuilder -> httpClientBuilder.setDefaultCredentialsProvider(
 	                    new BasicCredentialsProvider() {{
 	                        setCredentials(AuthScope.ANY,
-	                                new UsernamePasswordCredentials("khsystems", "qwer12#$"));}})).build();
+	                                new UsernamePasswordCredentials("username", "password"));}})).build();
 
 	    HttpEntity entity = new NStringEntity("{\n \"query\": {\n \"match\": {\n \"DestCityName\": \"Venice\"\n }\n }\n}", 
 	    		ContentType.APPLICATION_JSON);
