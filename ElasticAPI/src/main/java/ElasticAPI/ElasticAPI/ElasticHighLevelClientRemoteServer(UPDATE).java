@@ -38,12 +38,12 @@ public class ElasticHighLevelClientRemoteServerTest {
 		System.out.print("Enter value: ");
 		String valueName = input.nextLine();
 
-    	RestHighLevelClient client = new RestHighLevelClient(RestClient.builder(new HttpHost("115.68.193.101", 19200, "http"))
+    	RestHighLevelClient client = new RestHighLevelClient(RestClient.builder(new HttpHost("ipaddress", port, "http"))
     					.setHttpClientConfigCallback(new HttpClientConfigCallback() {
     						public HttpAsyncClientBuilder customizeHttpClient(HttpAsyncClientBuilder httpClientBuilder) {
     							CredentialsProvider credentialsProvider = new BasicCredentialsProvider();
     							credentialsProvider.setCredentials(AuthScope.ANY,
-    									new UsernamePasswordCredentials("khsystems", "qwer12#$"));
+    									new UsernamePasswordCredentials("username", "password"));
     							
     							return httpClientBuilder.setDefaultCredentialsProvider(credentialsProvider);
     						}
