@@ -38,7 +38,7 @@ This repository shows how to set elastic stack and check each of them, also show
 
 ![image](https://user-images.githubusercontent.com/24220136/236628339-81aa632a-ad9c-4be2-b10b-652b752b52c2.png)
 
-Then you have to set environmental variables as following:
+Don't forget to set environmental variables as following in the beginning!:
 
 ![image](https://user-images.githubusercontent.com/24220136/236627530-518d74a9-fb68-4317-b4ec-bd9dbc0b4a34.png)
 
