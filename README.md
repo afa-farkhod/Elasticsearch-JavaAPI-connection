@@ -86,7 +86,13 @@ This repository shows how to set elastic stack and check each of them, also show
 
 ![image](https://user-images.githubusercontent.com/24220136/236647470-60da3ffa-e8c1-42bd-91b6-c0efdc9fba1c.png)
 
-2. `HighLevelRestClientLocalServer` sample inside the folder: `ElasticHighLevelLocal` - Now we check High Level Rest Client with Elasticsearch local server. In the case of flowers_dataset data.
+2. `HighLevelRestClientLocalServer` sample inside the folder: `ElasticHighLevelLocal` - Now we check High Level Rest Client Api lasticsearch local server. In the case of flowers_dataset data.
 
 ![image](https://user-images.githubusercontent.com/24220136/236648733-45a06d69-2a83-4b37-960c-83374e9a4cbe.png)
 
+3. `LowLevelRestCLientRemoteServer` sample inside the folder: `ElasticLowLevelRemote` - is the Low Level Rest Client Api with Elasticsearch remote server: 
+
+![image](https://user-images.githubusercontent.com/24220136/236648990-f6332097-a176-48fb-94d9-0796cf326de0.png)
+
+
+ 
