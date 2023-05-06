@@ -64,32 +64,6 @@
             <version>7.9.2</version><!--$NO-MVN-MAN-VER$-->
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>com.BMIapp</groupId>-->
-<!--            <artifactId>BMIapplication</artifactId>-->
-<!--            <version>0.0.1-SNAPSHOT</version>-->
-<!--        </dependency>-->
-
-<!--        <dependency>-->
-<!--            <groupId>com.example</groupId>-->
-<!--            <artifactId>demo</artifactId>-->
-<!--            <version>0.0.1-SNAPSHOT</version>-->
-<!--        </dependency>-->
-
-<!--        <dependency>-->
-<!--            <groupId>JavaAPIelasticsearch</groupId>-->
-<!--            <artifactId>-->
-<!--                JavaAPIelasticSearchTestConnection-backend-->
-<!--            </artifactId>-->
-<!--            <version>0.0.1-SNAPSHOT</version>-->
-<!--        </dependency>-->
-
-<!--        <dependency>-->
-<!--            <groupId>com.AFmaven</groupId>-->
-<!--            <artifactId>AFmaven-project</artifactId>-->
-<!--            <version>0.0.1-SNAPSHOT</version>-->
-<!--        </dependency>-->
-
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpasyncclient</artifactId>
