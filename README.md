@@ -71,9 +71,9 @@ This repository shows how to set elastic stack and check each of them, also show
 
 ----------------------------
 
-### Java Rest API Connection (Low Level Client & High Level Client)
+## Java Rest API Connection (Low Level Client & High Level Client)
 
-## Elasticsearch + Kibana + Logstash Remote Server address of the company `KHSystems`:
+### Elasticsearch + Kibana + Logstash Remote Server address of the company `KHSystems`:
 
 - 서버 주소는 115.68.193.101 입니다.
 - 현재 개방된 포트는 19200(ES), 15601(kibana) 입니다.
