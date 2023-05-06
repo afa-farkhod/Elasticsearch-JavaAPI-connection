@@ -50,17 +50,17 @@ This repository shows how to set elastic stack and check each of them, also show
 
 - Following is `Logstash` container:
 
-  ![image](https://user-images.githubusercontent.com/24220136/236646827-b19a4c96-3434-49d6-9bc7-ff030f2bcd25.png
+![image](https://user-images.githubusercontent.com/24220136/236646902-52215f82-5c92-4b25-ada7-b8adaa824350.png)
 
 - Then we bring them all inside the `docker-compose.yml` file which runs the elasticsearch inside the docker container. To do so we run the command `docker-compose.up`:
 
 ![image](https://user-images.githubusercontent.com/24220136/227846350-d2fc6be7-e676-4dd4-9038-ba248b6e67f3.png)
 
-We can see our running servers inside the docker containers with the following command:
+- We can see our running servers inside the docker containers with the following command:
 
 ![image](https://user-images.githubusercontent.com/24220136/227846458-ea87f3dd-fc05-4904-b5e4-7ae8544d99b6.png)
 
-We can check elasticsearch on port:9200 (if you pay attention to cluster_name: "docker-cluster")
+- We can check elasticsearch on port:9200 (if you pay attention to cluster_name: "docker-cluster")
 
 ![image](https://user-images.githubusercontent.com/24220136/227846675-a1fc845e-7bb8-4bf5-8d64-19c5ebed703e.png)
 
