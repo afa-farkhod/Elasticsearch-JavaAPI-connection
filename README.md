@@ -85,3 +85,8 @@ This repository shows how to set elastic stack and check each of them, also show
 1. `HighLevelRestClientRemoteServer` sample inside the folder: `ElasticHighLevelRemote` - First we check Elasticsearch remote server connection with High Level Rest Client. Api allows to enter the index name, field name and value(key word), then runs the `vector search` to bring the related result(ignore the error message, it is just saying that Log4j2 should be updated, api itself works fine):  
 
 ![image](https://user-images.githubusercontent.com/24220136/236647470-60da3ffa-e8c1-42bd-91b6-c0efdc9fba1c.png)
+
+2. `HighLevelRestClientLocalServer` sample inside the folder: `ElasticHighLevelLocal` - Now we check High Level Rest Client with Elasticsearch local server. In the case of flowers_dataset data.
+
+![image](https://user-images.githubusercontent.com/24220136/236648733-45a06d69-2a83-4b37-960c-83374e9a4cbe.png)
+
