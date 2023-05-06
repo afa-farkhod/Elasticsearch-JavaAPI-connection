@@ -1,12 +1,13 @@
 # Elasticsearch-JavaAPI-connection
 This repository shows how to set elastic stack and check each of them, also shows basic connection between JavaAPI and Elasticsearch server.
 
+### Elastic stack installation guide:
+
 `Elasticsearch` install from the following link: https://www.elastic.co/downloads/elasticsearch
 
 ----------------------------
 
 ### Java Rest API Connection (Low Level Client & High Level Client)
-----------------------------
 
 Elasticsearch official documentation: https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/index.html
 
