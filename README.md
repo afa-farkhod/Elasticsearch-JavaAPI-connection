@@ -3,8 +3,11 @@ This repository shows how to set elastic stack and check each of them, also show
 
 ### Elastic stack installation guide:
 
-`Elasticsearch` install from the following link: https://www.elastic.co/downloads/elasticsearch
-Go inside the following folder: `c:\elastic-stack\elasticsearch-8.7.1\bin` and before running it, disable the security configuration in the following file: `c:\elastic-stack\elasticsearch-8.7.1\config\elasticsearch.yml`
+- `Elasticsearch` install from the following link: https://www.elastic.co/downloads/elasticsearch
+- Go inside the following folder: `c:\elastic-stack\elasticsearch-8.7.1\bin` and before running it, disable the security configuration in the following file:  `c:\elastic-stack\elasticsearch-8.7.1\config\elasticsearch.yml` by making the configuration to `false`
+
+![image](https://user-images.githubusercontent.com/24220136/236627245-7b96913a-51ef-4285-a644-85a204405fd1.png)
+
 
 
 ----------------------------
