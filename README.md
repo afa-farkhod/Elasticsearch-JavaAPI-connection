@@ -44,15 +44,15 @@ This repository shows how to set elastic stack and check each of them, also show
 ### Elasticsearch on Linux
 
 - We can also run the Elasticsearch, Kibana and Logstash at once inside the `docker-compose.yml` file based on `Linux` Operating System:
-- Following is the `Elasticsearch` container:
+- Following is the `Elasticsearch` container by pulling the `elasticsearch:7.16.2` image from the Docker hub:
 
 ![image](https://user-images.githubusercontent.com/24220136/236646804-424bf108-ac1f-4a7c-a125-160caa1dfdd8.png)
 
-- Following is `Kibana` container:
+- Following is `Kibana` container by pulling the `kibana:7.16.2` image from the Docker hub:
 
 ![image](https://user-images.githubusercontent.com/24220136/236646816-7c0ba095-3333-42e8-ab97-72d835a7a730.png)
 
-- Following is `Logstash` container:
+- Following is `Logstash` container by pulling the `logstash:7.16.2` image from the Docker hub:
 
 ![image](https://user-images.githubusercontent.com/24220136/236646902-52215f82-5c92-4b25-ada7-b8adaa824350.png)
 
