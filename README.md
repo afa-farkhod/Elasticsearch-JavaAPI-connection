@@ -39,7 +39,11 @@ This repository shows how to set elastic stack and check each of them, also show
 
 ![image](https://user-images.githubusercontent.com/24220136/236628339-81aa632a-ad9c-4be2-b10b-652b752b52c2.png)
 
-- We can also run the Elasticsearch, Kibana and Logstash at once inside the `docker-compose.yml` file:
+-------------------
+
+### Elasticsearch on Linux
+
+- We can also run the Elasticsearch, Kibana and Logstash at once inside the `docker-compose.yml` file based on `Linux` Operating System:
 - Following is the `Elasticsearch` container:
 
 ![image](https://user-images.githubusercontent.com/24220136/236646804-424bf108-ac1f-4a7c-a125-160caa1dfdd8.png)
@@ -63,6 +67,8 @@ This repository shows how to set elastic stack and check each of them, also show
 - We can check elasticsearch on port:9200 (if you pay attention to cluster_name: "docker-cluster")
 
 ![image](https://user-images.githubusercontent.com/24220136/227846675-a1fc845e-7bb8-4bf5-8d64-19c5ebed703e.png)
+
+-------------------------
 
 - Don't forget to set environmental variables as following in the beginning!:
 
