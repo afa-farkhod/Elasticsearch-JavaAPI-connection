@@ -1,10 +1,10 @@
-# Elasticsearch-JavaAPI-connection
+# [Elasticsearch-JavaAPI-connection](https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/installation.html)
 This repository shows how to set elastic stack and check each of them, also shows basic connection between JavaAPI and Elasticsearch server.
 
 ### Elastic stack installation guide:
 
-- Elasticsearch official documentation: https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/index.html
-- `Elasticsearch` install from the following link: https://www.elastic.co/downloads/elasticsearch
+- [Elasticsearch Java API Client](https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/index.html): The Java API client provides strongly typed requests and responses for all Elasticsearch APIs.  
+- [Download Elasticsearch](https://www.elastic.co/downloads/elasticsearch): 
 - Before running it, disable the security configuration in the following file:  `c:\elastic-stack\elasticsearch-8.7.1\config\elasticsearch.yml` by making the configuration to `false`
 
 ![image](https://user-images.githubusercontent.com/24220136/236627245-7b96913a-51ef-4285-a644-85a204405fd1.png)
