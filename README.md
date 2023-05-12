@@ -7,7 +7,7 @@ This repository shows how to set elastic stack and check each of them, also show
 - [Download Elasticsearch](https://www.elastic.co/downloads/elasticsearch):
 
 <tr>
-<td>elastic<br><img src="https://edent.github.io/SuperTinyIcons/images/svg/elastic.svg" width="50" title=""><br>720 bytes</td>
+<td>elastic<br><img src="https://edent.github.io/SuperTinyIcons/images/svg/elastic.svg" width="10" title=""><br>720 bytes</td>
 </tr>
 
 - Before running it, disable the security configuration in the following file:  `c:\elastic-stack\elasticsearch-8.7.1\config\elasticsearch.yml` by making the configuration to `false`
