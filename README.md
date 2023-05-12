@@ -15,7 +15,7 @@ This repository shows how to set elastic stack and check each of them, also show
 
 ![image](https://user-images.githubusercontent.com/24220136/236627341-ada8ef31-851a-4dac-ae7f-9523bac9918e.png)
 
-- <tr><img src="https://blog.kakaocdn.net/dn/QE6OI/btqDsPnpyJJ/V6S6KrmJ0xk8OdXzvG3l9k/img.png" width="35" title=""></tr> [Download Kibana](https://www.elastic.co/kr/downloads/kibana)
+- [Download Kibana](https://www.elastic.co/kr/downloads/kibana) <tr><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3_RqXgpJRFZ-5KPzNMyzWJaJxwXERWjSxjA&usqp=CAU" width="35" title=""></tr> 
 - Go inside the following directory: `c:\elastic-stack\kibana-8.7.1\bin` then run the command: `kibana.bat`, there is nothing to make changes in the configuration files. Just open the port: `localhost:5601` in browser, then you kibana interface is running:
 
 ![image](https://user-images.githubusercontent.com/24220136/236627447-8d64ffa1-f6f0-41f1-bbc6-73c9a5e791a8.png)
