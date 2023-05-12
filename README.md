@@ -3,6 +3,10 @@ This repository shows how to set elastic stack and check each of them, also show
 
 ### Elastic stack installation guide:
 
+- [Beginner's Crash Course to Elastic Stack](https://youtu.be/gS_nHTWZEJ8) - Official Elastic Community. Beginner’s Crash Course is a series of workshops for all developers with little to no experience with Elasticsearch and Kibana or those who could use a refresher. By the end of this workshop, you will be able to: 
+  - understand how the products of Elastic Stack work together to search, analyze, and visualize data in real time
+  - understand the basic architecture of Elasticsearch
+  - run CRUD operations with  Elasticsearch and Kibana 
 - [Elasticsearch Java API Client](https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/index.html): The Java API client provides strongly typed requests and responses for all Elasticsearch APIs.  
 - [Download Elasticsearch](https://www.elastic.co/downloads/elasticsearch) <tr><img src="https://edent.github.io/SuperTinyIcons/images/svg/elastic.svg" width="35" title=""></tr>
 
