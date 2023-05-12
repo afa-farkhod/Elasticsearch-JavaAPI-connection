@@ -4,7 +4,7 @@ This repository shows how to set elastic stack and check each of them, also show
 ### Elastic stack installation guide:
 
 - [Elasticsearch Java API Client](https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/index.html): The Java API client provides strongly typed requests and responses for all Elasticsearch APIs.  
-- [Download Elasticsearch](https://www.elastic.co/downloads/elasticsearch) <tr><td><br><img src="https://edent.github.io/SuperTinyIcons/images/svg/elastic.svg" width="20" title=""><br></td>
+- [Download Elasticsearch](https://www.elastic.co/downloads/elasticsearch) | <tr><td><br><img src="https://edent.github.io/SuperTinyIcons/images/svg/elastic.svg" width="20" title=""><br></td>
 </tr>
 
 
