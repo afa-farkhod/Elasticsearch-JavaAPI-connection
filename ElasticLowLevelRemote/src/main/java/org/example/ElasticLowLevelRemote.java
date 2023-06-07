@@ -25,13 +25,11 @@ public class ElasticLowLevelRemote {
         System.out.print("enter id ");
         String id = input.nextLine();
         RestClient restClient = RestClient.builder(
-//                        new HttpHost("ipaddress", port, "http"))
-                          new HttpHost("115.68.193.101", 19200, "http"))
-                .setHttpClientConfigCallback(httpClientBuilder -> httpClientBuilder.setDefaultCredentialsProvider(
+                          new HttpHost("ipaddress", port, "http"))
+                  .setHttpClientConfigCallback(httpClientBuilder -> httpClientBuilder.setDefaultCredentialsProvider(
                         new BasicCredentialsProvider() {{
                             setCredentials(AuthScope.ANY,
-//                                    new UsernamePasswordCredentials("username", "password"));}})).build();
-                                    new UsernamePasswordCredentials("khsystems", "qwer12#$"));}})).build();
+                                    new UsernamePasswordCredentials("username", "password"));}})).build();
 
         HttpEntity entity = new NStringEntity("{\n \"query\": {\n \"match\": {\n \"_id\": \"" + id + "\"\n }\n }\n}",
                 ContentType.APPLICATION_JSON);
