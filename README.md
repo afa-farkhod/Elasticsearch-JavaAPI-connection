@@ -85,15 +85,6 @@ This repository shows how to set elastic stack and check each of them, also show
 
 ## Java Rest API Connection (Low Level Client & High Level Client)
 
-### Elasticsearch + Kibana + Logstash Remote Server address of the company `KHSystems`:
-```
-- 서버 주소는 115.68.193.101 입니다.
-- 현재 개방된 포트는 19200(ES), 15601(kibana) 입니다.
-- Kibana의 경우 다음 주소로 접근 가능합니다. http:// 115.68.193.101: 15601
-- 다음은 키바나 superuser 계정입니다.
-- ID : khsystems
-- PW : qwer12#$
-```
 1. `HighLevelRestClientRemoteServer` sample inside the folder: `ElasticHighLevelRemote` - First we check Elasticsearch remote server connection with High Level Rest Client. Api allows to enter the index name, field name and value(key word), then runs the `vector search` to bring the related result(ignore the error message, it is just saying that Log4j2 should be updated, api itself works fine):  
 
 ![image](https://user-images.githubusercontent.com/24220136/236647470-60da3ffa-e8c1-42bd-91b6-c0efdc9fba1c.png)
