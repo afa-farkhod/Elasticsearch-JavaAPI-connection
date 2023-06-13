@@ -104,3 +104,13 @@ This repository shows how to set elastic stack and check each of them, also show
 ----------------------
 
 ## [Add and remove nodes in your cluster](https://www.elastic.co/guide/en/elasticsearch/reference/current/add-elasticsearch-nodes.html)
+
+- When you start an instance of Elasticsearch, you are starting a node. An Elasticsearch cluster is a group of nodes that have the same cluster.name attribute. As nodes join or leave a cluster, the cluster automatically reorganizes itself to evenly distribute the data across the available nodes.
+- If you are running a single instance of Elasticsearch, you have a cluster of one node. All primary shards reside on the single node. No replica shards can be allocated, therefore the cluster state remains yellow. The cluster is fully functional but is at risk of data loss in the event of a failure.
+
+![image](https://github.com/af4092/Elasticsearch-JavaAPI-connection/assets/24220136/b7cb2c70-7a49-473d-be23-9d102bdb60b4)
+
+- You add nodes to a cluster to increase its capacity and reliability. By default, a node is both a data node and eligible to be elected as the master node that controls the cluster. You can also configure a new node for a specific purpose, such as handling ingest requests. For more information, see Nodes.
+- When you add more nodes to a cluster, it automatically allocates replica shards. When all primary and replica shards are active, the cluster state changes to green.
+
+![image](https://github.com/af4092/Elasticsearch-JavaAPI-connection/assets/24220136/61524c45-61ff-44e2-ab51-46c868af989c)
