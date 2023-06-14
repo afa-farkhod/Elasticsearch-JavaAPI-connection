@@ -105,6 +105,10 @@ This repository shows how to set elastic stack and check each of them, also show
 
 ![image](https://user-images.githubusercontent.com/24220136/236649253-39df4828-341f-49e5-9102-a8b47d74ae95.png)
 
+5. `ElasticsearchConnectionChecker` folder includes the source code which just checks the connection with Elasticsearch server. Remote Elasticsearch credentials must be entered. The following is the demo test run:
+
+![image](https://github.com/af4092/Elasticsearch-JavaAPI-connection/assets/24220136/37383a13-a438-49a2-9800-68312bb7b2d8)
+
 ----------------------
 
 ## [Add and remove nodes in your cluster](https://www.elastic.co/guide/en/elasticsearch/reference/current/add-elasticsearch-nodes.html)
