@@ -13,10 +13,10 @@ import java.io.IOException;
 public class ElasticsearchConnectionChecker {
 
     public static void main(String[] args) throws IOException {
-        String host = "115.68.193.101";                                        // <<<<<<<<<<<<<< Replace with the Elasticsearch host IP address
-        int port = 19200;                                                      // <<<<<<<<<<<<<< Replace Elasticsearch port
-        String username = "khsystems";                                         //<<<<<<<<<<<<<< Replace with your Elasticsearch username
-        String password = "qwer12#$";                                          //<<<<<<<<<<<<<< Replace with your Elasticsearch password
+        String host = "HOST-IP-ADDRESS";                                        // <<<<<<<<<<<<<< Replace with the Elasticsearch host IP address
+        int port = PORT;                                                      // <<<<<<<<<<<<<< Replace Elasticsearch port
+        String username = "USERNAME";                                         //<<<<<<<<<<<<<< Replace with your Elasticsearch username
+        String password = "PASSWORD";                                          //<<<<<<<<<<<<<< Replace with your Elasticsearch password
 
         RestClientBuilder restClientBuilder = RestClient.builder(new HttpHost(host, port, "http"))
                 .setHttpClientConfigCallback(httpClientBuilder -> {
