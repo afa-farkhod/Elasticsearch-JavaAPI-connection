@@ -7,6 +7,7 @@ This repository shows how to set elastic stack and check each of them, also show
   - understand how the products of Elastic Stack work together to search, analyze, and visualize data in real time
   - understand the basic architecture of Elasticsearch
   - run CRUD operations with  Elasticsearch and Kibana 
+- [Problems with access to Elasticsearch form outside machine](https://discuss.elastic.co/t/problems-with-access-to-elasticsearch-form-outside-machine/172450) - Following shows the issue with accessing Elasticsearch form outside machine.
 - [Elasticsearch Java API Client](https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/index.html): The Java API client provides strongly typed requests and responses for all Elasticsearch APIs.  
 - [Elasticsearch api secure using SSH tunneling](https://pramodshehan.medium.com/elasticsearch-api-secure-using-ssh-tunnels-c6e82595842f) - SSH is a method for secure remote login (encrypted secure shell connection) from one machine to another machine. Following shows how to do elasticsearch securing using ssh tunneling
 - [Host name does not match the certificate](https://discuss.elastic.co/t/host-name-does-not-match-the-certificate/186618) - need to disable hostname verification your in HttpAsyncClientBuilder
