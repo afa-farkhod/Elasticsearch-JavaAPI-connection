@@ -13,10 +13,10 @@ import java.io.IOException;
 public class ElasticsearchConnectionCheckHTTP {
 
     public static void main(String[] args) throws IOException {
-        String host = "115.68.193.101";
-        int port = 19200;
-        String username = "khsystems";
-        String password = "qwer12#$";
+        String host = "IP-ADDRESS";
+        int port = PORT;
+        String username = "USERNAME";
+        String password = "PASSWORD";
 
         RestClientBuilder restClientBuilder = RestClient.builder(new HttpHost(host, port, "http"))
                 .setHttpClientConfigCallback(httpClientBuilder -> {
