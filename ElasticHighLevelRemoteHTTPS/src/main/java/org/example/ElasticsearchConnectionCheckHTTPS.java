@@ -19,12 +19,12 @@ import java.security.KeyStore;
 public class ElasticsearchConnectionCheckHTTPS {
 
     public static void main(String[] args) {
-        String host = "34.64.119.125";
-        int port = 9200;
-        String username = "elastic";
-        String password = "qwer12#$";
+        String host = "IP-ADDRESS";
+        int port = PORT;
+        String username = "USERNAME";
+        String password = "PASSWORD";
         String truststorePath = "D:\\LGUVoCproject\\truststore.jks";
-        String truststorePassword = "qwer12#$";
+        String truststorePassword = "TRUSTSTORE-PASSWORD";
 
         try {
             KeyStore truststore = KeyStore.getInstance("JKS");
