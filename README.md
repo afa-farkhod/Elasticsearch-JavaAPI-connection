@@ -126,7 +126,9 @@ public HttpAsyncClientBuilder customizeHttpClient(HttpAsyncClientBuilder httpCli
    ```
    keytool -import -alias http_ca -file C:Users\User\Downloads\http_ca.crt -keystore truststore.jks
    ```
-
+- The above command can be used for other clients as well. The keytool command is a generic tool that can be used to manage certificates and keystores. The -import option is not specific to Java clients. It can be used to import certificates into any keystore that supports the JKS format.
+- The truststore is a file that contains a list of trusted certificates. When a client connects to a server using SSL/TLS, the client will check the server's certificate against the truststore. If the certificate is found in the truststore, the client will trust the server and the connection will be established.
+- The truststore can be used by any client that supports SSL/TLS. This includes Java clients, as well as clients written in other languages.
 ----------------------
 
 ## [Add and remove nodes in your cluster](https://www.elastic.co/guide/en/elasticsearch/reference/current/add-elasticsearch-nodes.html)
