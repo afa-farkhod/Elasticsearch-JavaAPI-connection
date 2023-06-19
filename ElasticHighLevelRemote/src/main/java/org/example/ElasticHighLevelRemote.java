@@ -56,7 +56,7 @@ public class ElasticHighLevelRemote {
         String field = fieldName;
         String value = valueName;
 
-        MatchQueryBuilder matchQuery = QueryBuilders.matchQuery(field, value);
+        MatchQueryBuilder matchQuery = QueryBuilders.matchQuery(field, value); //performs text-based search from Elasticsearch Query DSL(Domain Specific Language)
         searchSourceBuilder.query(matchQuery);
         searchRequest.source(searchSourceBuilder);
 
