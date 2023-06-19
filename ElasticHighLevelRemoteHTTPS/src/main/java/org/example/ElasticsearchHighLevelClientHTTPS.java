@@ -70,7 +70,7 @@ public class ElasticsearchHighLevelClientHTTPS{
             // Perform search query
             SearchRequest searchRequest = new SearchRequest(indexName);
             SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
-            searchSourceBuilder.query(QueryBuilders.matchQuery(fieldName, valueName));
+            searchSourceBuilder.query(QueryBuilders.matchQuery(fieldName, valueName)); //[matchQuery] => performs text-based search from Elasticsearch Query DSL(Domain Specific Language)
             searchRequest.source(searchSourceBuilder);
 
             SearchResponse searchResponse = client.search(searchRequest, RequestOptions.DEFAULT);
