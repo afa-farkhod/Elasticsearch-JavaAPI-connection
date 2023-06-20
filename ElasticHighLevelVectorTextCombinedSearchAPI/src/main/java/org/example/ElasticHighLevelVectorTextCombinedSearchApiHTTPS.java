@@ -38,19 +38,19 @@ public class ElasticHighLevelVectorTextCombinedSearchApiHTTPS {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter index: ");
-        String indexName = input.nextLine(); //"kibana_sample_data_flights" (Elasticsearch Sample Data)
+        String indexName = input.nextLine(); 
 
         System.out.print("Enter vector field: ");
-        String vectorFieldName = input.nextLine(); // "FlightNum" (Elasticsearch Sample Data)
+        String vectorFieldName = input.nextLine(); 
 
         System.out.print("Enter vector value: ");
-        String vectorValue = input.nextLine(); // "X98CCZO" (Elasticsearch Sample Data)
+        String vectorValue = input.nextLine(); 
 
         System.out.print("Enter text field: ");
-        String textFieldName = input.nextLine(); // "OriginCityName"  (Elasticsearch Sample Data)
+        String textFieldName = input.nextLine();
 
         System.out.print("Enter text value: ");
-        String textValue = input.nextLine(); // "Cape Town" (Elasticsearch Sample Data)
+        String textValue = input.nextLine(); 
 
         RestHighLevelClient client = createClient();
 
@@ -74,7 +74,7 @@ public class ElasticHighLevelVectorTextCombinedSearchApiHTTPS {
 
     private static RestHighLevelClient createClient() throws Exception {
         // Load the truststore
-        char[] truststorePassword = "qwer12#$".toCharArray();
+        char[] truststorePassword = "TRUSTSTORE-PASSWORD".toCharArray();
         KeyStore truststore = KeyStore.getInstance("JKS");
         try (FileInputStream fis = new FileInputStream("D:\\LGUVoCproject\\truststore.jks")) {
             truststore.load(fis, truststorePassword);
@@ -89,9 +89,9 @@ public class ElasticHighLevelVectorTextCombinedSearchApiHTTPS {
 
         // Create HTTP client with SSL/TLS
         CredentialsProvider credentialsProvider = new BasicCredentialsProvider();
-        credentialsProvider.setCredentials(AuthScope.ANY, new UsernamePasswordCredentials("elastic", "qwer12#$"));
+        credentialsProvider.setCredentials(AuthScope.ANY, new UsernamePasswordCredentials("ELASTIC-USERNAME", "ELASTIC-PASSWORD"));
 
-        RestClientBuilder builder = RestClient.builder(new HttpHost("34.64.119.125", 9200, "https"))
+        RestClientBuilder builder = RestClient.builder(new HttpHost("ELASTIC-IP-ADDRESS", ELASTIC-PORT, "https"))
                 .setHttpClientConfigCallback(httpClientBuilder -> {
                     httpClientBuilder.setDefaultCredentialsProvider(credentialsProvider);
                     httpClientBuilder.setSSLContext(sslContext);
