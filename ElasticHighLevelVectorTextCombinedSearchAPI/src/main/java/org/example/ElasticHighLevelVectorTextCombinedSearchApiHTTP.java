@@ -71,9 +71,9 @@ public class ElasticHighLevelVectorTextCombinedSearchApiHTTP {
         CredentialsProvider credentialsProvider = new BasicCredentialsProvider();
 
         credentialsProvider.setCredentials(AuthScope.ANY,
-                new UsernamePasswordCredentials("khsystems", "qwer12#$"));
+                new UsernamePasswordCredentials("USERNAME", "PASSWORD"));
 
-        RestClientBuilder builder = RestClient.builder(new HttpHost("115.68.193.101", 19200, "http"))
+        RestClientBuilder builder = RestClient.builder(new HttpHost("ELASTIC-IP-ADDRESS", ELASTIC-PORT, "http"))
                 .setHttpClientConfigCallback(httpClientBuilder -> httpClientBuilder.setDefaultCredentialsProvider(credentialsProvider));
 
         return new RestHighLevelClient(builder);
