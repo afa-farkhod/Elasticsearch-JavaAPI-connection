@@ -1,0 +1,46 @@
+
+//******************************Elasticsearch sample data from 115.68.193.101:19200 (server) *********************************//
+
+
+{
+        "_index": "kibana_sample_data_flights",
+        "_id": "U56ezIUBhLt9fMTM-VjE",
+        "_score": 1,
+        "_source": {
+          "FlightNum": "X98CCZO",
+          "DestCountry": "IT",
+          "OriginWeather": "Clear",
+          "OriginCityName": "Cape Town",
+          "AvgTicketPrice": 882.9826615595518,
+          "DistanceMiles": 5482.606664853586,
+          "FlightDelay": false,
+          "DestWeather": "Sunny",
+          "Dest": "Venice Marco Polo Airport",
+          "FlightDelayType": "No Delay",
+          "OriginCountry": "ZA",
+          "dayOfWeek": 0,
+          "DistanceKilometers": 8823.40014044213,
+          "timestamp": "2023-01-09T18:27:00",
+          "DestLocation": {
+            "lat": "45.505299",
+            "lon": "12.3519"
+          },
+          "DestAirportID": "VE05",
+          "Carrier": "Logstash Airways",
+          "Cancelled": false,
+          "FlightTimeMin": 464.3894810759016,
+          "Origin": "Cape Town International Airport",
+          "OriginLocation": {
+            "lat": "-33.96480179",
+            "lon": "18.60169983"
+          },
+          "DestRegion": "IT-34",
+          "OriginAirportID": "CPT",
+          "OriginRegion": "SE-BD",
+          "DestCityName": "Venice",
+          "FlightTimeHour": 7.73982468459836,
+          "FlightDelayMin": 0
+        }
+      }
+
+
