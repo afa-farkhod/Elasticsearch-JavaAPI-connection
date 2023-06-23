@@ -76,7 +76,7 @@ public class ElasticHighLevelVectorTextCombinedSearchApiHTTPS {
         // Load the truststore
         char[] truststorePassword = "TRUSTSTORE-PASSWORD".toCharArray();
         KeyStore truststore = KeyStore.getInstance("JKS");
-        try (FileInputStream fis = new FileInputStream("D:\\LGUVoCproject\\truststore.jks")) {
+        try (FileInputStream fis = new FileInputStream("\path\to\truststore.jks")) {
             truststore.load(fis, truststorePassword);
         }
 
