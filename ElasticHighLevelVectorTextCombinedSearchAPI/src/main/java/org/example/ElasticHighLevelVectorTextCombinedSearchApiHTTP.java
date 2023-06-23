@@ -33,19 +33,19 @@ public class ElasticHighLevelVectorTextCombinedSearchApiHTTP {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter index: ");
-        String indexName = input.nextLine(); //"kibana_sample_data_flights" (Elasticsearch Sample Data)
+        String indexName = input.nextLine(); 
 
         System.out.print("Enter vector field: ");
-        String vectorFieldName = input.nextLine(); // "FlightNum" (Elasticsearch Sample Data)
+        String vectorFieldName = input.nextLine();
 
         System.out.print("Enter vector value: ");
-        String vectorValue = input.nextLine(); // "X98CCZO" (Elasticsearch Sample Data)
+        String vectorValue = input.nextLine();
 
         System.out.print("Enter text field: ");
-        String textFieldName = input.nextLine(); // "OriginCityName"  (Elasticsearch Sample Data)
+        String textFieldName = input.nextLine();
 
         System.out.print("Enter text value: ");
-        String textValue = input.nextLine(); // "Cape Town" (Elasticsearch Sample Data)
+        String textValue = input.nextLine(); 
 
         RestHighLevelClient client = createClient();
 
