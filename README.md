@@ -110,7 +110,7 @@ public HttpAsyncClientBuilder customizeHttpClient(HttpAsyncClientBuilder httpCli
 
 1. `HighLevelRestClientRemoteServer` sample inside the folder: `ElasticHighLevelRemote` - First we check Elasticsearch remote server connection with High Level Rest Client. Api allows to enter the index name, field name and value(key word), then runs the `vector search` to bring the related result(ignore the error message, it is just saying that Log4j2 should be updated, api itself works fine):  
 
-![Screenshot 2023-06-15 073930](https://github.com/af4092/Elasticsearch-JavaAPI-connection/assets/24220136/bafecb96-4fa5-443e-8d7b-c32ac9048f28)
+![Screenshot 2023-06-23 140827](https://github.com/af4092/Elasticsearch-JavaAPI-connection/assets/24220136/7a50f45b-46f1-434f-9bf2-eb026d9d5beb)
 
 2. `HighLevelRestClientLocalServer` sample inside the folder: `ElasticHighLevelLocal` - Now we check High Level Rest Client Api Elasticsearch local server. In the case of flowers_dataset data.
 
