@@ -23,7 +23,7 @@ public class ElasticsearchConnectionCheckHTTPS {
         int port = PORT;
         String username = "USERNAME";
         String password = "PASSWORD";
-        String truststorePath = "D:\\LGUVoCproject\\truststore.jks";
+        String truststorePath = "\path\to\truststore.jks";
         String truststorePassword = "TRUSTSTORE-PASSWORD";
 
         try {
