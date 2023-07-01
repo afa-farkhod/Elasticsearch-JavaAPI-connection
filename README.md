@@ -75,7 +75,7 @@ public HttpAsyncClientBuilder customizeHttpClient(HttpAsyncClientBuilder httpCli
 
 -------------------
 
-### Elasticsearch on Linux
+### [Elasticsearch on Linux](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04)
 
 - We can also run the Elasticsearch, Kibana and Logstash at once inside the `docker-compose.yml` file based on `Linux` Operating System:
 - Following is the `Elasticsearch` container by pulling the `elasticsearch:7.16.2` image from the Docker hub:
