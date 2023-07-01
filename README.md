@@ -1,7 +1,7 @@
 # [Elasticsearch-JavaAPI-connection](https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/installation.html)
 This repository shows how to set elastic stack and check each of them, also shows basic connection between JavaAPI and Elasticsearch server.
 
-### Elastic stack installation guide:
+### [Elastic stack installation guide:](https://www.elastic.co/guide/en/elastic-stack/current/installing-elastic-stack.html)
 
 - [Beginner's Crash Course to Elastic Stack](https://youtu.be/gS_nHTWZEJ8) - Official Elastic Community. Beginner’s Crash Course is a series of workshops for all developers with little to no experience with Elasticsearch and Kibana or those who could use a refresher. By the end of this workshop, you will be able to: 
   - understand how the products of Elastic Stack work together to search, analyze, and visualize data in real time
