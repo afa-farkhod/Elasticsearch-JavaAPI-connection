@@ -1,7 +1,7 @@
 # [Elasticsearch-JavaAPI-connection](https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/installation.html)
 This repository shows how to set elastic stack and check each of them, also shows basic connection between JavaAPI and Elasticsearch server.
 
-### [Elastic stack installation guide:](https://www.elastic.co/guide/en/elastic-stack/current/installing-elastic-stack.html)
+### Troubleshooting
 
 - [Problems with access to Elasticsearch form outside machine](https://discuss.elastic.co/t/problems-with-access-to-elasticsearch-form-outside-machine/172450) - Following shows the issue with accessing Elasticsearch form outside machine.
 - [Unable to remotely access ES server hosted on AWS EC2 on port 9200](https://discuss.elastic.co/t/unable-to-remotely-access-es-server-hosted-on-aws-ec2-on-port-9200/33243) - Unable to remotely access ES server hosted on AWS EC2 on port 9200. It includes some solutions
@@ -35,55 +35,6 @@ public HttpAsyncClientBuilder customizeHttpClient(HttpAsyncClientBuilder httpCli
 
 <p align="center">
   <img src="https://github.com/af4092/Elasticsearch-JavaAPI-connection/assets/24220136/b6f66593-2135-409a-be7d-74b3863f6201" alt="Image">
-</p>
-
--------------------
-
-### [Elasticsearch on Linux](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-22-04)
-
-- We can also run the Elasticsearch, Kibana and Logstash at once inside the `docker-compose.yml` file based on `Linux` Operating System:
-- Following is the `Elasticsearch` container by pulling the `elasticsearch:7.16.2` image from the Docker hub:
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/24220136/236646804-424bf108-ac1f-4a7c-a125-160caa1dfdd8.png" alt="Image">
-</p>
-
-- Following is `Kibana` container by pulling the `kibana:7.16.2` image from the Docker hub:
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/24220136/236646816-7c0ba095-3333-42e8-ab97-72d835a7a730.png" alt="Image">
-</p>
-
-- Following is `Logstash` container by pulling the `logstash:7.16.2` image from the Docker hub:
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/24220136/236646902-52215f82-5c92-4b25-ada7-b8adaa824350.png" alt="Image">
-</p>
-
-- Then we bring them all inside the `docker-compose.yml` file which runs the elasticsearch inside the docker container. To do so we run the command `docker-compose.up`:
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/24220136/227846350-d2fc6be7-e676-4dd4-9038-ba248b6e67f3.png" alt="Image">
-</p>
-
-- We can see our running servers inside the docker containers with the following command:
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/24220136/227846458-ea87f3dd-fc05-4904-b5e4-7ae8544d99b6.png" alt="Image">
-</p>
-
-- We can check elasticsearch on port:9200 (if you pay attention to cluster_name: "docker-cluster")
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/24220136/227846675-a1fc845e-7bb8-4bf5-8d64-19c5ebed703e.png" alt="Image">
-</p>
-
--------------------------
-
-- Don't forget to set environmental variables as following in the beginning!:
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/24220136/236627530-518d74a9-fb68-4317-b4ec-bd9dbc0b4a34.png" alt="Image">
 </p>
 
 ----------------------------
