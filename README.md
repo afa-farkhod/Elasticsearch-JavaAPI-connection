@@ -39,42 +39,16 @@ public HttpAsyncClientBuilder customizeHttpClient(HttpAsyncClientBuilder httpCli
 
 ----------------------------
 
-## [Java Rest API Connection (Low Level Client & High Level Client)](https://www.elastic.co/guide/en/elasticsearch/client/java-rest/7.17/java-rest-overview.html)
-
-1. `HighLevelRestClientRemoteServer` sample inside the folder: `ElasticHighLevelRemote` - First we check Elasticsearch remote server connection with High Level Rest Client. Api allows to enter the index name, field name and value(key word), then runs the `vector search` to bring the related result(ignore the error message, it is just saying that Log4j2 should be updated, api itself works fine):  
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/24220136/236648733-45a06d69-2a83-4b37-960c-83374e9a4cbe.png" alt="Image">
-</p>
-
-2. `HighLevelRestClientLocalServer` sample inside the folder: `ElasticHighLevelLocal` - Now we check High Level Rest Client Api Elasticsearch local server. In the case of flowers_dataset data.
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/24220136/236648733-45a06d69-2a83-4b37-960c-83374e9a4cbe.png" alt="Image">
-</p>
-
-3. `LowLevelRestCLientRemoteServer` sample inside the folder: `ElasticLowLevelRemote` - is the Low Level Rest Client Api with Elasticsearch remote server: 
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/24220136/236648990-f6332097-a176-48fb-94d9-0796cf326de0.png" alt="Image">
-</p>
-
-4. `LowLevelRestClientLocalServer` sample inside the folder: `ElasticLowLevelLocal` - is the Low Level Rest Client Api with Elasticsearch local server:
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/24220136/236649253-39df4828-341f-49e5-9102-a8b47d74ae95.png" alt="Image">
-</p>
-
-5. `ElasticHighLevelRemoteHTTPS` folder includes the `ElasticsearchConnectionCheckHTTP` source code which just checks the connection with Elasticsearch server without any SSH. `ElasticsearchConnectionChekHTTPS` checks the connection with the `HTTPS` security. Remote Elasticsearch credentials must be entered. The following is the demo test run:
+- `ElasticHighLevelRemoteHTTPS` folder includes the `ElasticsearchConnectionCheckHTTP` source code which just checks the connection with Elasticsearch server without any SSH. `ElasticsearchConnectionChekHTTPS` checks the connection with the `HTTPS` security. Remote Elasticsearch credentials must be entered. The following is the demo test run:
 
 <p align="center">
   <img src="https://github.com/af4092/Elasticsearch-JavaAPI-connection/assets/24220136/37383a13-a438-49a2-9800-68312bb7b2d8" alt="Image">
 </p>
 
-6. While making connection with the remote Elasictsearch server with SSH protection `HTTPS`, there is a need for Elasticsearch `http_ca.crt` certificate file. But the server uses a self-signed certificate or a certificate signed by a Certificate Authority (CA) that is not recognized by the Java truststore. To resolve this issue, we need to add the Elasticsearch server's SSL certificate to the truststore used by Java application.
+- While making connection with the remote Elasictsearch server with SSH protection `HTTPS`, there is a need for Elasticsearch `http_ca.crt` certificate file. But the server uses a self-signed certificate or a certificate signed by a Certificate Authority (CA) that is not recognized by the Java truststore. To resolve this issue, we need to add the Elasticsearch server's SSL certificate to the truststore used by Java application.
    ```
    keytool -import -alias http_ca -file C:Users\User\Downloads\http_ca.crt -keystore truststore.jks
    ```
-- The above command can be used for other clients as well. The keytool command is a generic tool that can be used to manage certificates and keystores. The -import option is not specific to Java clients. It can be used to import certificates into any keystore that supports the JKS format.
-- The truststore is a file that contains a list of trusted certificates. When a client connects to a server using SSL/TLS, the client will check the server's certificate against the truststore. If the certificate is found in the truststore, the client will trust the server and the connection will be established.
-- The truststore can be used by any client that supports SSL/TLS. This includes Java clients, as well as clients written in other languages.
+  - The above command can be used for other clients as well. The keytool command is a generic tool that can be used to manage certificates and keystores. The -import option is not specific to Java clients. It can be used to import certificates into any keystore that supports the JKS format.
+  - The truststore is a file that contains a list of trusted certificates. When a client connects to a server using SSL/TLS, the client will check the server's certificate against the truststore. If the certificate is found in the truststore, the client will trust the server and the connection will be established.
+  - The truststore can be used by any client that supports SSL/TLS. This includes Java clients, as well as clients written in other languages.
