@@ -1,8 +1,7 @@
 # [Elasticsearch-JavaAPI-connection](https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/installation.html)
 This repository shows how to set elastic stack and check each of them, also shows basic connection between JavaAPI and Elasticsearch server.
 
-### Troubleshooting
-
+## [Troubleshooting](https://github.com/af4092/Elasticsearch-JavaAPI-connection/tree/main)
 
 - [Elasticsearch Java API Client](https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/index.html): The Java API client provides strongly typed requests and responses for all Elasticsearch APIs.  
 - [Elasticsearch warning - ignore_throttled parameter is deprecated](https://stackoverflow.com/questions/72271872/elasticsearch-warning-ignore-throttled-parameter-is-deprecated) - [Stackoverflow](https://stackoverflow.com/) - Elasticsearch warning - ignore_throttled parameter is deprecated issued which has answer
