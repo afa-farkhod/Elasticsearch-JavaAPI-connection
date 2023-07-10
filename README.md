@@ -1,5 +1,5 @@
 # [Elasticsearch-JavaAPI-connection](https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/installation.html)
-This repository shows how to set elastic stack and check each of them, also shows basic connection between JavaAPI and Elasticsearch server.
+This repository shows basic connection between JavaAPI and Elasticsearch server.
 
 ## [Implementation](https://github.com/af4092/Elasticsearch-JavaAPI-connection/tree/main/ElasticsearchConnectionCheckHTTP/src/main/java/org/example)
 1. Java client `ElasticsearchConnectionCheckHTTP` that establishes a connection to an Elasticsearch cluster and checks if the connection is successful using HTTP.
