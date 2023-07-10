@@ -1,7 +1,0 @@
-
-C:\windows\system32>netstat -ano | findstr :8080
-  TCP    0.0.0.0:8080           0.0.0.0:0              LISTENING       7352
-  TCP    [::]:8080              [::]:0                 LISTENING       7352
-
-C:\windows\system32>taskkill /PID 7352 /F
-SUCCESS: The process with PID 7352 has been terminated.
