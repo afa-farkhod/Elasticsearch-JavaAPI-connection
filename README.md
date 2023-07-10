@@ -22,6 +22,20 @@ This repository shows how to set elastic stack and check each of them, also show
   - If an IOException occurs during the ping, it prints "Connection is FAILED" along with the exception message.
 - Closing the Client:
   - The client.close() method is called in a finally block to ensure the client resources are released.
+2. `FileReadabilityCheck` checks the readability of a file.
+- Import Statement:
+  - The code imports the `java.io.File` class, which represents a file on the file system.
+- File Path:
+  - The code declares a variable named `filePath` and assigns it a file path string.
+- Creating a File Object:
+  - The code creates a `File object` using the filePath string.
+  - The File object represents the file specified by the file path.
+- Checking File Readability:
+  - The code uses an if statement to check the existence and readability of the file.
+  - The `exists()` method checks if the file exists.
+  - The `canRead()` method checks if the file is readable.
+  - If both conditions are true, it prints "File is readable".
+  - If either condition is false, it prints "File is not readable".
 
 ## [Troubleshooting](https://github.com/af4092/Elasticsearch-JavaAPI-connection/tree/main)
 
