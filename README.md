@@ -37,6 +37,12 @@ This repository shows how to set elastic stack and check each of them, also show
   - If both conditions are true, it prints "File is readable".
   - If either condition is false, it prints "File is not readable".
 
+- Demo run screenshot:
+
+<p align="center">
+  <img src="https://github.com/af4092/Elasticsearch-JavaAPI-connection/assets/24220136/de993e8c-729d-46f1-8e1d-4a2ce308c6f3" alt="Image">
+</p>
+
 ## [Troubleshooting](https://github.com/af4092/Elasticsearch-JavaAPI-connection/tree/main)
 
 - [Elasticsearch Java API Client](https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/index.html): The Java API client provides strongly typed requests and responses for all Elasticsearch APIs.  
