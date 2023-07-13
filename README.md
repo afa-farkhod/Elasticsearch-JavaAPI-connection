@@ -11,7 +11,7 @@ This repository shows basic connection between JavaAPI and Elasticsearch server.
   - password: Represents the password for authentication with the Elasticsearch cluster.
 - Building the Elasticsearch Client:
   - The code creates a `RestClientBuilder` object to configure the Elasticsearch client.
-  - It uses the RestClient.builder() method and specifies the host, port, and "http" scheme to build an HTTP host.
+  - It uses the `RestClient.builder()` method and specifies the host, port, and "http" scheme to build an HTTP host.
   - The setHttpClientConfigCallback method is used to configure the HTTP client with authentication credentials.
   - It creates a CredentialsProvider object, sets the AuthScope to ANY, and provides the UsernamePasswordCredentials.
   - The httpClientBuilder is then configured with the setDefaultCredentialsProvider method.
