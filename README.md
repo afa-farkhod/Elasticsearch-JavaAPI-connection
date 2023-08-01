@@ -17,7 +17,7 @@ This repository shows basic connection between JavaAPI and Elasticsearch server.
   - The httpClientBuilder is then configured with the setDefaultCredentialsProvider method.
   - Finally, the RestHighLevelClient is created using the configured RestClientBuilder.
 - Checking the Connection:
-  - The code attempts to ping the Elasticsearch cluster using the `client.ping` method and passing RequestOptions.DEFAULT.
+  - The code attempts to ping the Elasticsearch cluster using the `client.ping` method and passing `RequestOptions.DEFAULT`
   - If the ping is successful, it prints "Connection is SUCCESSFUL."
   - If an IOException occurs during the ping, it prints "Connection is FAILED" along with the exception message.
 - Closing the Client:
