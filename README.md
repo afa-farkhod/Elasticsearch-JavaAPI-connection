@@ -21,7 +21,7 @@ This repository shows basic connection between JavaAPI and Elasticsearch server.
   - If the ping is successful, it prints "Connection is SUCCESSFUL."
   - If an IOException occurs during the ping, it prints "Connection is FAILED" along with the exception message.
 - Closing the Client:
-  - The client.close() method is called in a finally block to ensure the client resources are released.
+  - The `client.close()` method is called in a finally block to ensure the client resources are released.
 2. `FileReadabilityCheck` checks the readability of a file.
 - Import Statement:
   - The code imports the `java.io.File` class, which represents a file on the file system.
