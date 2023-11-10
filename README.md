@@ -28,7 +28,7 @@ This repository shows basic connection between JavaAPI and Elasticsearch server.
 - File Path:
   - The code declares a variable named `filePath` and assigns it a file path string.
 - Creating a File Object:
-  - The code creates a `File object` using the filePath string.
+  - The code creates a `File object` using the `filePath` string.
   - The File object represents the file specified by the file path.
 - Checking File Readability:
   - The code uses an if statement to check the existence and readability of the file.
