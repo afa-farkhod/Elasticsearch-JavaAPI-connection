@@ -35,7 +35,7 @@ This repository shows basic connection between JavaAPI and Elasticsearch server.
   - The `exists()` method checks if the file exists.
   - The `canRead()` method checks if the file is readable.
   - If both conditions are true, it prints "File is readable".
-  - If either condition is false, it prints "File is not readable".
+  - If either condition is false then it prints "File is not readable".
 
 - Demo run screenshot:
 
